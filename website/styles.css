@@ -1,0 +1,46 @@
+body{
+  background-color: rgb(197, 226, 236);
+}
+
+.heading{
+  font-size: 12;
+  font-family: 'Raleway', sans-serif;
+}
+
+
+.name{
+  color: navy;
+  font-size: 14;
+}
+
+#item1{
+  height:35%;
+  border-radius:25%;
+  padding-right: 0;
+}
+
+
+
+.text{
+  font-size: 10;
+  font-family: 'Raleway', sans-serif;
+}
+
+.aboutme{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  height:100px;
+  width:80%;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+#header{
+  display:flex;
+  height: 200px;
+  width:300px;
+  border-radius: 100px;
+  border-color:black;
+  justify-content: center;
+  align-items: center;
+}
