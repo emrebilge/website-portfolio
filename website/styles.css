@@ -1,5 +1,6 @@
 body{
   background-color: rgb(197, 226, 236);
+  height: 600px;
   margin: 0;
 }
 
@@ -8,19 +9,14 @@ body{
   font-family: 'Raleway', sans-serif;
 }
 
+#welcome{
+  display:block;
+}
 
 .name{
   color: navy;
   font-size: 14;
 }
-
-#item1{
-  height:35%;
-  border-radius:25%;
-  padding-right: 0;
-}
-
-
 
 .text{
   font-size: 10;
@@ -29,19 +25,36 @@ body{
 
 .aboutme{
   display:grid;
-  grid-template-columns: 1fr 1fr;
-  height:100px;
+  grid-template-columns: 1fr 2fr;
+  height:auto;
   width:80%;
-  padding-left: 25%;
-  padding-right: 25%;
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+#item1{
+  border-radius:25%;
+  margin-right: 20px;
+  height: 200px;
+  align-self: end;
+}
+
+#item2{
+  margin-left:0;
+  justify-self: top;
+  height: 300px;
 }
 
 #header{
-  display:flex;
+  /* display: flex; */
   height: 200px;
   width:300px;
-  border-radius: 100px;
-  border-color:black;
+  border-radius: 30%;
+  border: 5px solid rgb(0, 77, 128);
+  margin-left:50%;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 0px;;
   justify-content: center;
   align-items: center;
 }
